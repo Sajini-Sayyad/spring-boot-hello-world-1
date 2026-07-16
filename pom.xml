@@ -35,9 +35,9 @@
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.openjfx</groupId>
-				<artifactId>javafx.base</artifactId>
-				<version>11.0.2</version>
+				<groupId>org.hibernate.validator</groupId>
+				<artifactId>hibernate-validator</artifactId>
+				<version>6.0.12.Final</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -121,7 +121,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.mockito</groupId>
+			<groupId>org.mockito</artifactId>
 			<artifactId>mockito-core</artifactId>
 			<scope>test</scope>
 		</dependency>
